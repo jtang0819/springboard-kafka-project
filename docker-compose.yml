@@ -1,12 +1,21 @@
 version: "3"
-services:
+
     # TODO:
-    services:
+services:
 # ...
     generator:
         build: ./generator
         environment:
             KAFKA_BROKER_URL: broker:9092
+            TRANSACTIONS_TOPOIC: queueing.transactions
+            TRANSACTIONS_PER_SECOND: 1000
+    detector:
+        build: ./detector
+        environment:
+            KAFKA_BROKER_URL: broker:9092
+            TRANSACTIONS_TOPOIC: queueing.transactions
+            LEGIT_TOPIC: streaming.transactions.legit
+            FRAUD_TOPIC: streaming.transactions.fraud
     
 networks:
     default:

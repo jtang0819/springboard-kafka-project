@@ -16,9 +16,9 @@ def _random_amount() -> float:
 def create_random_transaction() -> dict:
     """Create a fake, randomised transaction."""
     return {
-    "source": _random_account_id(),
-    "target": _random_account_id(),
-    "amount": _random_amount(),
-    # Keep it simple: it's all dollars
-    "currency": "USD",
+        "source": _random_account_id(),
+        "target": _random_account_id(),
+        "amount": _random_amount(),
+        # Keep it simple: it's all dollars
+        "currency": "USD"
     }
