@@ -1,5 +1,4 @@
 # springboard-kafka-project
-kafka mini project
 Building A Streaming Fraud Detection System With Kafka + Python
 
 
