@@ -1,5 +1,7 @@
 # springboard-kafka-project
 kafka mini project
+Building A Streaming Fraud Detection System With Kafka + Python
+
 
 1. start kafka and zookeeper cluster
 docker-compose -f docker-compose.kafka.yml up
