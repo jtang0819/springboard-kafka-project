@@ -1,5 +1,5 @@
 # springboard-kafka-project
-Building A Streaming Fraud Detection System With Kafka + Python
+Prototype fraud detection service with Kafka + Python
 
 
 1. start kafka and zookeeper cluster
